@@ -1,0 +1,20 @@
+let
+	var x :int := 0
+in
+	for i := 0 to 10 do
+		let
+			function sum(i:int) : int =
+			let
+				var total := 0
+			in
+				for x := 0 to i+1 do
+					(if x = i+1 then
+						break;
+					total := total + x);
+				total
+			end
+		in
+			iprint(sum(i));
+			print("\n")
+		end
+end

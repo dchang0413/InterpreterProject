@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (FlexBisonTools.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Interpreter.cpp
+t:\projects\project7\interpreterproject\maindriver\interpreter.cpp(125): warning C4715: 'interpreter::Interpreter::interp': not all control paths return a value
+  MainDriver.vcxproj -> T:\Projects\project7\InterpreterProject\Debug\MainDriver.exe

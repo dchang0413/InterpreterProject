@@ -1,0 +1,7 @@
+iprint ( let 
+			var x := 10
+		in
+			while x > 0 do
+			(iprint(x); print("\n"); x := x -1);
+			100
+		end )

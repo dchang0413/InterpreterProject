@@ -1,0 +1,27 @@
+/* My example Tiger program, presented in class. */
+let
+    var c : int := 0
+	function f(n:int) : int =
+	( c := 0;
+	  for i1:=1 to n do
+		c := c + i1;
+	  iprint(c); print("\n");
+	  c
+	 )
+	 type INT = int
+	 function outer(i2:int) : int =
+	 let
+		var k:int := 1
+		function inner(j:INT) : int =
+			(iprint(j); print("--"); iprint( f(i2) ); print("\n"); 1)
+	 in
+		inner(i2)
+	end
+			 
+in
+	for i3:=0 to 10 do
+		(outer(i3); print("\n"));
+	f(100)
+
+end
+

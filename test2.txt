@@ -1,0 +1,15 @@
+Parsing successful!
+
+0
+1
+3
+6
+10
+15
+21
+28
+36
+45
+55
+
+The result of the program is: VOID
